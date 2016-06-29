@@ -1,0 +1,115 @@
+2016-06-26 05:44:15 [INFO] (test-prop-config) - We are the Simpsons!
+2016-06-26 05:44:15 [INFO] (test-prop-config) - Mmmmmm .... Chocolate.
+2016-06-26 05:44:15 [INFO] (test-prop-config) - Homer likes chocolate
+2016-06-26 05:44:15 [INFO] (test-prop-config) - Doh!
+2016-06-26 05:44:15 [INFO] (test-prop-config) - We are the Simpsons!
+2016-06-26 05:44:15 [WARN] (test-prop-config) - Bart: I am through with working! Working is for chumps! Homer: Son, I'm proud of you. I was twice your age before I figured that out.
+2016-06-26 05:44:15 [WARN] (test-prop-config) - Mmm...forbidden donut.
+2016-06-26 05:44:15 [WARN] (test-prop-config) - D'oh! A deer! A female deer!
+2016-06-26 05:44:15 [WARN] (test-prop-config) - Truly, yours is a butt that won't quit. - Bart, writing as Woodrow to Ms. Krabappel.
+2016-06-26 05:44:16 [ERROR] (test-prop-config) - Dear Baby, Welcome to Dumpsville. Population: you.
+2016-06-26 05:44:16 [ERROR] (test-prop-config) - Mr. Hutz, are you aware you're not wearing pants?
+2016-06-26 05:44:16 [FATAL] (test-prop-config) - Eep.
+2016-06-26 05:44:16 [FATAL] (test-prop-config) - Mmm...forbidden donut.
+2016-06-26 05:44:16 [FATAL] (test-prop-config) - D'oh! A deer! A female deer!
+2016-06-26 05:44:16 [FATAL] (test-prop-config) - Mmmmmm .... Chocolate.
+2016-06-26 05:44:16 [INFO] (test-prop-config) - test of the default pattern layout
+2016-06-26 05:44:16 [INFO] (test-prop-config) - test of setting a pattern layout
+2016-06-26 05:44:16 [INFO] (test-prop-config) - test of setting a pattern layout again
+2016-06-26 05:44:16 [INFO] (test-prop-config) - setting a pattern for a simple layout logger.  should not change the pattern of the simple logger as it is still set to a simple layout.
+2016-06-26 05:44:16 [myFilename] INFO - setting a new pattern for a patterned layout file logger
+2016-06-26 05:44:16 [%f] INFO - setting a pattern for a patterned layout file logger, using an invalid character conversion.
+2016-06-26 05:44:16 INFO - setting the pattern for the patterned layout file logger back to a reasonable value.
+2016-06-26 05:44:16 INFO - closing the myFilename appender
+2016-06-26 05:44:16 INFO - setting a pattern layout for STDERR that uses the thread name conversion character.  the thread name isn't set yet, so it should be the default value ('main' as of this writing)...
+2016-06-26 05:44:16 INFO - the thread name is now set to the name of this script, so it should show up in output now
+2016-06-26 05:44:16 INFO - will now 'push' a new thread 'myNewThread' on the thread name stack...
+2016-06-26 05:44:16 INFO - checking to see if the thread name changed.  did it?
+2016-06-26 05:44:16 INFO - just 'got' the thread name of 'myNewThread'.  does it match what is shown over on the left?
+2016-06-26 05:44:16 INFO - just pushed two threads named 'mySecondNewThread' and 'myThirdNewThread'.  verify that the later is visible on the left, and that they pop off correctly.
+2016-06-26 05:44:16 INFO - popped the thread named 'myThirdNewThread'
+2016-06-26 05:44:16 INFO - popped the thread named 'mySecondNewThread'
+2016-06-26 05:44:16 INFO - I just popped the topmost thread name.  the first thread name should be shown again.  is it?
+2016-06-26 05:44:17 INFO - I just tried popping again.  the thread name should not have changed as we were already at the topmost thread name.  there should have been a log4sh warning as well.
+2016-06-26 05:44:17 INFO - this message *should not* generate an email.
+2016-06-26 05:44:17 FATAL - this message *should* generate an email to 'postmaster@localhost'.
+2016-06-26 05:44:17 INFO - just requested the syslog facility for the mySyslog appender.  I expected 'local4' and got ''.  do they match?
+2016-06-26 05:44:17 INFO - closing the mySyslog appender
+2016-06-26 05:44:17 INFO - this is a test message without quotes to verify that a logging function can be called without wrapping the message in quotes.
+2016-06-26 05:44:17 INFO - the next test tests the %X and %% conversion characters
+2016-06-26 05:44:17 INFO - got some work done
+2016-06-26 05:44:17 INFO - got some work more done
+2016-06-26 05:44:17 INFO - our work is done
+2016-06-26 05:44:17 INFO - MDC test including the date/time
+2016-06-26 05:44:17 INFO - this message should have a backslash character hier ><
+2016-06-26 05:44:17 INFO - this message should have an andpersand character hier >&<
+2016-06-26 05:44:17 INFO - this system's uname: Linux www.come.on 4.3.0-kali1-amd64 #1 SMP Debian 4.3.3-7kali2 (2016-01-27) x86_64 GNU/Linux
+2016-06-26 05:44:17 INFO - output of 'ls -l': total 288
+drwxr-xr-x 2 root root      4096 Jun 26 05:39 demo
+-rwxr-xr-x 1 1000 inetsim    385 Aug 19  2006 hello_world
+-rw-r--r-- 1 1000 inetsim 113381 Jun  2  2007 log4sh
+-rw-r--r-- 1 root root      4463 Jun 26 05:44 log4sh-pattern.log
+-rw-r--r-- 1 1000 inetsim   1097 Aug 10  2006 log4sh.properties
+-rw-r--r-- 1 root root      3331 Jun 26 05:44 log4sh-simple.log
+-rw-r--r-- 1 1000 inetsim    501 Dec 31  2006 priorityMatrix.data
+-rwxr-xr-x 1 1000 inetsim   2231 Jan  5  2007 run-test-suite
+-rw-r--r-- 1 1000 inetsim  22848 Jun  2  2007 shunit2
+-rwxr-xr-x 1 1000 inetsim   1209 May 22  2007 testAsciiCharset
+-rw-r--r-- 1 1000 inetsim    308 Aug 18  2006 testAsciiCharset.data
+-rw-r--r-- 1 1000 inetsim    250 Sep  7  2006 testAsciiCharset.log4sh
+-rw-r--r-- 1 1000 inetsim   6687 Aug 15  2006 test-common
+-rwxr-xr-x 1 1000 inetsim   3542 May 22  2007 testCustomMDCPatterns
+-rwxr-xr-x 1 1000 inetsim   4910 May 22  2007 testFileAppender
+-rw-r--r-- 1 1000 inetsim    293 Jan  3  2007 testFileAppender-accessors.log4sh
+-rw-r--r-- 1 1000 inetsim    246 Sep  7  2006 testFileAppender-mySimple.log4sh
+-rw-r--r-- 1 1000 inetsim    191 Sep  7  2006 testFileAppender-mySTDERR.log4sh
+-rw-r--r-- 1 1000 inetsim   1862 Jan  3  2007 test-functions.inc
+-rwxr-xr-x 1 1000 inetsim   1819 May 31  2007 testLog4jCompatibility
+-rwxr-xr-x 1 1000 inetsim   1878 May 22  2007 testMultipleAppenders
+-rwxr-xr-x 1 1000 inetsim   7381 May 22  2007 testPatternLayout
+-rwxr-xr-x 1 1000 inetsim   2348 May 22  2007 testPriority
+-rwxr-xr-x 1 1000 inetsim   1373 Mar 25  2006 test-prop-config
+-rwxr-xr-x 1 1000 inetsim   1963 May 31  2007 testPropertyConfig
+-rwxr-xr-x 1 1000 inetsim  13815 May 22  2007 testRollingFileAppender
+-rw-r--r-- 1 1000 inetsim    486 Dec 28  2006 testRollingFileAppender.log4sh
+-rwxr-xr-x 1 1000 inetsim   2562 Sep 16  2006 test-runtime-config
+-rwxr-xr-x 1 1000 inetsim   3663 May 22  2007 testSMTPAppender
+-rw-r--r-- 1 1000 inetsim    428 Jan  4  2007 testSMTPAppender.log4sh
+-rwxr-xr-x 1 1000 inetsim   7979 Jun  2  2007 testSyslogAppender
+-rw-r--r-- 1 1000 inetsim    211 Jan  3  2007 testSyslogAppender.data
+2016-06-26 05:44:17 INFO - if this message is seen, then the sending of a message via a pipe works
+2016-06-26 05:44:17 INFO - output of 'ls -l' [again] via pipe in next logging statement...
+2016-06-26 05:44:17 INFO - total 292
+drwxr-xr-x 2 root root      4096 Jun 26 05:39 demo
+-rwxr-xr-x 1 1000 inetsim    385 Aug 19  2006 hello_world
+-rw-r--r-- 1 1000 inetsim 113381 Jun  2  2007 log4sh
+-rw-r--r-- 1 root root      6807 Jun 26 05:44 log4sh-pattern.log
+-rw-r--r-- 1 1000 inetsim   1097 Aug 10  2006 log4sh.properties
+-rw-r--r-- 1 root root      5615 Jun 26 05:44 log4sh-simple.log
+-rw-r--r-- 1 1000 inetsim    501 Dec 31  2006 priorityMatrix.data
+-rwxr-xr-x 1 1000 inetsim   2231 Jan  5  2007 run-test-suite
+-rw-r--r-- 1 1000 inetsim  22848 Jun  2  2007 shunit2
+-rwxr-xr-x 1 1000 inetsim   1209 May 22  2007 testAsciiCharset
+-rw-r--r-- 1 1000 inetsim    308 Aug 18  2006 testAsciiCharset.data
+-rw-r--r-- 1 1000 inetsim    250 Sep  7  2006 testAsciiCharset.log4sh
+-rw-r--r-- 1 1000 inetsim   6687 Aug 15  2006 test-common
+-rwxr-xr-x 1 1000 inetsim   3542 May 22  2007 testCustomMDCPatterns
+-rwxr-xr-x 1 1000 inetsim   4910 May 22  2007 testFileAppender
+-rw-r--r-- 1 1000 inetsim    293 Jan  3  2007 testFileAppender-accessors.log4sh
+-rw-r--r-- 1 1000 inetsim    246 Sep  7  2006 testFileAppender-mySimple.log4sh
+-rw-r--r-- 1 1000 inetsim    191 Sep  7  2006 testFileAppender-mySTDERR.log4sh
+-rw-r--r-- 1 1000 inetsim   1862 Jan  3  2007 test-functions.inc
+-rwxr-xr-x 1 1000 inetsim   1819 May 31  2007 testLog4jCompatibility
+-rwxr-xr-x 1 1000 inetsim   1878 May 22  2007 testMultipleAppenders
+-rwxr-xr-x 1 1000 inetsim   7381 May 22  2007 testPatternLayout
+-rwxr-xr-x 1 1000 inetsim   2348 May 22  2007 testPriority
+-rwxr-xr-x 1 1000 inetsim   1373 Mar 25  2006 test-prop-config
+-rwxr-xr-x 1 1000 inetsim   1963 May 31  2007 testPropertyConfig
+-rwxr-xr-x 1 1000 inetsim  13815 May 22  2007 testRollingFileAppender
+-rw-r--r-- 1 1000 inetsim    486 Dec 28  2006 testRollingFileAppender.log4sh
+-rwxr-xr-x 1 1000 inetsim   2562 Sep 16  2006 test-runtime-config
+-rwxr-xr-x 1 1000 inetsim   3663 May 22  2007 testSMTPAppender
+-rw-r--r-- 1 1000 inetsim    428 Jan  4  2007 testSMTPAppender.log4sh
+-rwxr-xr-x 1 1000 inetsim   7979 Jun  2  2007 testSyslogAppender
+-rw-r--r-- 1 1000 inetsim    211 Jan  3  2007 testSyslogAppender.data
+2016-06-26 05:44:17 INFO - after this message, you should see a non-log4sh message that a cleanup function was called.  if you do, than you know that the trap handler of this test script was called, and that log4sh was able to properly call that handler upon exit.

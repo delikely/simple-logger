@@ -1,0 +1,6 @@
+ [ - ]  anacron
+ [ - ]  apache2
+ [ + ]  arpwatch
+ [ - ]  atftpd
+ [ - ]  avahi-daemon
+ [ + ]  beef-xss

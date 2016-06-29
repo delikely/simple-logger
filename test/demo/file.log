@@ -1,0 +1,14 @@
+INFO - Tue Jun 28 02:23:09 UTC 2016 | 10 11
+WARN - Tue Jun 28 02:23:09 UTC 2016 | CPU usage ratio byond 10%,now is 11%
+INFO - Tue Jun 28 02:24:47 UTC 2016 | Service: beef-xss inactive(dead)
+INFO - Tue Jun 28 02:24:55 UTC 2016 | Service: beef-xss active(running)
+INFO - ----------------------------------------
+INFO - system boot 2016-06-27 20:35
+INFO - Tue Jun 28 02:33:22 UTC 2016 | Service: anacron active(running)
+WARN - Tue Jun 28 02:33:22 UTC 2016 | /dev/sda usage ratio byond 30%,now is 31%
+WARN - Tue Jun 28 02:33:22 UTC 2016 | CPU usage ratio byond 5%,now is 11%
+INFO - Tue Jun 28 02:33:24 UTC 2016 | Service: log-halt active(running)
+INFO - Tue Jun 28 02:33:37 UTC 2016 | Service: anacron active(running)
+WARN - Tue Jun 28 02:33:37 UTC 2016 | /dev/sda usage ratio byond 30%,now is 31%
+WARN - Tue Jun 28 02:33:37 UTC 2016 | CPU usage ratio byond 5%,now is 11%
+INFO - Tue Jun 28 02:33:39 UTC 2016 | Service: log-halt active(running)
